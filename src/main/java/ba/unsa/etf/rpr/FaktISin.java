@@ -3,7 +3,8 @@ package ba.unsa.etf.rpr;
 import java.lang.Math;
 
 public class FaktISin {
-    public static double Sinus(int x){
+    public static double Sinus(double x){
+        x = x * Math.PI/180;
         return Math.sin(x);
     }
     public static int Faktorijel(int x){
